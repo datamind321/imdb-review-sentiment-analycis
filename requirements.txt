@@ -4,7 +4,6 @@ scikit-learn
 tensorflow
 keras
 nltk
-string
 pickle
 pyttsx3
 streamlit
