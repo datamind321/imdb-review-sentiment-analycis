@@ -10,7 +10,6 @@ import pyttsx3
 
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('corpus')
 
 def speak(text):
     engine = pyttsx3.init()
