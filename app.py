@@ -8,6 +8,10 @@ from sklearn.linear_model import LogisticRegression
 import pickle 
 import pyttsx3
 
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('corpus')
+
 def speak(text):
     engine = pyttsx3.init()
     engine.say(text)
