@@ -4,6 +4,7 @@ scikit-learn
 tensorflow
 keras
 nltk
-pickle
+pickle5
 pyttsx3
 streamlit
+Pillow==9.5.0
